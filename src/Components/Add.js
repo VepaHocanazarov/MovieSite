@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import ResultCard from "./ResultCard";
+// import { GlobalContext } from "../context/GlobalState";
 
 const Add = () => {
+  
   const [query, setQuery] = useState("");
 
   const [results, setResults] = useState([]);
